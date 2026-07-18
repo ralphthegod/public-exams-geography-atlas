@@ -1,5 +1,7 @@
 # Public Exams Geography Atlas
 
+<img width="2062" height="1165" alt="image" src="https://github.com/user-attachments/assets/16fd1318-18bf-4fac-92c6-b8e52503a80a" />
+
 An interactive Streamlit atlas designed to help candidates review geography questions for Italian public competitive examinations (*concorsi pubblici*).
 
 The application combines an OpenStreetMap basemap with European countries, Italian regions and provinces, regional capitals, rivers, lakes, river sources, mountains, labels, and a dataset-only search experience. Every visible feature is organized as a switchable Folium layer.
