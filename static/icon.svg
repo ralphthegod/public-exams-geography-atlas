@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Atlante INPS">
+  <rect width="512" height="512" rx="108" fill="#1d6f5f"/>
+  <circle cx="256" cy="256" r="166" fill="#f5f7f2"/>
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#d5a94e" stroke-width="12"/>
+  <path d="M300 198 270 272 196 302l30-74z" fill="#b5483e"/>
+  <path d="m270 272-44-44 74-30z" fill="#18211f" opacity=".9"/>
+  <circle cx="256" cy="256" r="15" fill="#d5a94e"/>
+  <path d="M256 91v42M256 379v42M91 256h42M379 256h42" stroke="#1d6f5f" stroke-width="13" stroke-linecap="round"/>
+</svg>

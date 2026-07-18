@@ -1,0 +1,769 @@
+{
+  "capitals": {
+    "L'Aquila": [
+      42.3498,
+      13.3995,
+      "Abruzzo"
+    ],
+    "Potenza": [
+      40.6404,
+      15.8056,
+      "Basilicata"
+    ],
+    "Catanzaro": [
+      38.9098,
+      16.5877,
+      "Calabria"
+    ],
+    "Napoli": [
+      40.8518,
+      14.2681,
+      "Campania"
+    ],
+    "Bologna": [
+      44.4949,
+      11.3426,
+      "Emilia-Romagna"
+    ],
+    "Trieste": [
+      45.6495,
+      13.7768,
+      "Friuli-Venezia Giulia"
+    ],
+    "Roma": [
+      41.9028,
+      12.4964,
+      "Lazio"
+    ],
+    "Genova": [
+      44.4056,
+      8.9463,
+      "Liguria"
+    ],
+    "Milano": [
+      45.4642,
+      9.19,
+      "Lombardia"
+    ],
+    "Ancona": [
+      43.6158,
+      13.5189,
+      "Marche"
+    ],
+    "Campobasso": [
+      41.5603,
+      14.6627,
+      "Molise"
+    ],
+    "Torino": [
+      45.0703,
+      7.6869,
+      "Piemonte"
+    ],
+    "Bari": [
+      41.1171,
+      16.8719,
+      "Puglia"
+    ],
+    "Cagliari": [
+      39.2238,
+      9.1217,
+      "Sardegna"
+    ],
+    "Palermo": [
+      38.1157,
+      13.3615,
+      "Sicilia"
+    ],
+    "Firenze": [
+      43.7696,
+      11.2558,
+      "Toscana"
+    ],
+    "Trento": [
+      46.0748,
+      11.1217,
+      "Trentino-Alto Adige"
+    ],
+    "Perugia": [
+      43.1107,
+      12.3908,
+      "Umbria"
+    ],
+    "Aosta": [
+      45.737,
+      7.3201,
+      "Valle d'Aosta"
+    ],
+    "Venezia": [
+      45.4408,
+      12.3155,
+      "Veneto"
+    ]
+  },
+  "mountains": {
+    "Monte Bianco": [
+      45.8326,
+      6.8652,
+      "4.808 m"
+    ],
+    "Monte Rosa": [
+      45.9369,
+      7.8669,
+      "4.634 m"
+    ],
+    "Cervino": [
+      45.9763,
+      7.6586,
+      "4.478 m"
+    ],
+    "Gran Paradiso": [
+      45.5184,
+      7.2664,
+      "4.061 m"
+    ],
+    "Ortles": [
+      46.5086,
+      10.544,
+      "3.905 m"
+    ],
+    "Marmolada": [
+      46.434,
+      11.8527,
+      "3.343 m"
+    ],
+    "Gran Sasso": [
+      42.4699,
+      13.5657,
+      "2.912 m"
+    ],
+    "Etna": [
+      37.751,
+      14.9934,
+      "3.357 m"
+    ],
+    "Vesuvio": [
+      40.8214,
+      14.4265,
+      "1.281 m"
+    ],
+    "Monte Fumaiolo": [
+      43.788,
+      12.0703,
+      "1.407 m"
+    ],
+    "Elbrus": [
+      43.3499,
+      42.4453,
+      "5.642 m"
+    ],
+    "Mulhacén": [
+      37.0531,
+      -3.3115,
+      "3.479 m"
+    ],
+    "Monte Olimpo": [
+      40.0856,
+      22.3586,
+      "2.918 m"
+    ]
+  },
+  "river_labels": {
+    "Po": [
+      45.02,
+      10.55
+    ],
+    "Adige": [
+      45.65,
+      11.05
+    ],
+    "Tevere": [
+      42.15,
+      12.35
+    ],
+    "Arno": [
+      43.68,
+      11.15
+    ],
+    "Adda": [
+      45.55,
+      9.55
+    ],
+    "Oglio": [
+      45.5,
+      10.05
+    ],
+    "Piave": [
+      45.95,
+      12.18
+    ],
+    "Reno": [
+      44.48,
+      11.05
+    ],
+    "Volturno": [
+      41.2,
+      14.18
+    ],
+    "Ofanto": [
+      41.08,
+      15.65
+    ],
+    "Tagliamento": [
+      46.05,
+      12.93
+    ],
+    "Isonzo": [
+      45.92,
+      13.6
+    ],
+    "Dora Baltea": [
+      45.7,
+      7.7
+    ],
+    "Tanaro": [
+      44.83,
+      8.2
+    ],
+    "Ticino": [
+      45.35,
+      8.75
+    ],
+    "Secchia": [
+      44.7,
+      10.8
+    ],
+    "Nera": [
+      42.58,
+      12.65
+    ],
+    "Liri-Garigliano": [
+      41.47,
+      13.75
+    ],
+    "Aterno-Pescara": [
+      42.3,
+      13.8
+    ],
+    "Sangro": [
+      41.95,
+      14.3
+    ],
+    "Basento": [
+      40.55,
+      16.1
+    ],
+    "Agri": [
+      40.23,
+      16.2
+    ],
+    "Crati": [
+      39.6,
+      16.3
+    ],
+    "Neto": [
+      39.2,
+      16.85
+    ],
+    "Tacina": [
+      39.05,
+      16.75
+    ],
+    "Livenza": [
+      45.9,
+      12.65
+    ],
+    "Bormida": [
+      44.55,
+      8.35
+    ],
+    "Trebbia": [
+      44.75,
+      9.45
+    ],
+    "Scrivia": [
+      44.7,
+      8.95
+    ],
+    "Metauro": [
+      43.72,
+      12.72
+    ],
+    "Tronto": [
+      42.82,
+      13.65
+    ],
+    "Esino": [
+      43.47,
+      13.1
+    ],
+    "Fortore": [
+      41.55,
+      15.2
+    ],
+    "Trigno": [
+      41.75,
+      14.7
+    ],
+    "Bradano": [
+      40.55,
+      16.45
+    ],
+    "Cervaro": [
+      41.25,
+      15.35
+    ],
+    "Tirso": [
+      40.05,
+      8.75
+    ],
+    "Flumendosa": [
+      39.62,
+      9.35
+    ],
+    "Coghinas": [
+      40.85,
+      8.85
+    ],
+    "Imera meridionale-Salso": [
+      37.55,
+      13.75
+    ],
+    "Simeto": [
+      37.55,
+      14.85
+    ],
+    "Dittaino": [
+      37.55,
+      14.45
+    ],
+    "Ombrone": [
+      42.9,
+      11.25
+    ],
+    "Serchio": [
+      44.0,
+      10.45
+    ],
+    "Brenta": [
+      45.78,
+      11.65
+    ],
+    "Chiese": [
+      45.65,
+      10.55
+    ],
+    "Chiascio": [
+      43.15,
+      12.55
+    ],
+    "Buthier": [
+      45.76,
+      7.34
+    ],
+    "Lys": [
+      45.72,
+      7.82
+    ]
+  },
+  "lake_labels": {
+    "Lago di Garda": [
+      45.63,
+      10.67
+    ],
+    "Lago Maggiore": [
+      45.96,
+      8.63
+    ],
+    "Lago di Como": [
+      46.0,
+      9.26
+    ],
+    "Lago d'Iseo": [
+      45.73,
+      10.06
+    ],
+    "Lago di Lugano": [
+      45.98,
+      8.97
+    ],
+    "Lago Trasimeno": [
+      43.13,
+      12.1
+    ],
+    "Lago di Bolsena": [
+      42.61,
+      11.94
+    ],
+    "Lago di Bracciano": [
+      42.12,
+      12.23
+    ],
+    "Lago d'Orta": [
+      45.82,
+      8.4
+    ],
+    "Lago di Ginevra": [
+      46.43,
+      6.55
+    ],
+    "Lago di Costanza": [
+      47.6,
+      9.38
+    ],
+    "Lago Balaton": [
+      46.83,
+      17.73
+    ],
+    "Lago di Scutari": [
+      42.17,
+      19.31
+    ],
+    "Lago di Ocrida": [
+      41.03,
+      20.72
+    ],
+    "Lago Vänern": [
+      58.9,
+      13.3
+    ],
+    "Lago Saimaa": [
+      61.3,
+      28.0
+    ],
+    "Lago Ladoga": [
+      60.82,
+      31.5
+    ],
+    "Lago Onega": [
+      61.7,
+      35.5
+    ]
+  },
+  "river_sources": {
+    "Po": [
+      44.7007,
+      7.0934,
+      "Monviso · Pian del Re"
+    ],
+    "Adige": [
+      46.8486,
+      10.5107,
+      "Passo di Resia · Alpi Venoste"
+    ],
+    "Tevere": [
+      43.7874,
+      12.0708,
+      "Monte Fumaiolo"
+    ],
+    "Arno": [
+      43.8667,
+      11.65,
+      "Monte Falterona"
+    ],
+    "Adda": [
+      46.542,
+      10.209,
+      "Monte del Ferro · Val Alpisella"
+    ],
+    "Oglio": [
+      46.26,
+      10.51,
+      "Gruppo Ortles-Cevedale"
+    ],
+    "Piave": [
+      46.633,
+      12.718,
+      "Monte Peralba"
+    ],
+    "Reno": [
+      44.021,
+      10.92,
+      "Appennino pistoiese · Prunetta"
+    ],
+    "Volturno": [
+      41.653,
+      14.064,
+      "Monti della Meta · Rocchetta"
+    ],
+    "Ofanto": [
+      40.934,
+      15.115,
+      "Altopiano Irpino"
+    ],
+    "Tagliamento": [
+      46.456,
+      12.608,
+      "Passo della Mauria"
+    ],
+    "Isonzo": [
+      46.409,
+      13.725,
+      "Monte Travnik · Alpi Giulie"
+    ],
+    "Dora Baltea": [
+      45.79,
+      6.97,
+      "Massiccio del Monte Bianco"
+    ],
+    "Tanaro": [
+      44.063,
+      7.709,
+      "Monte Saccarello"
+    ],
+    "Ticino": [
+      46.475,
+      8.39,
+      "Passo della Novena"
+    ],
+    "Secchia": [
+      44.332,
+      10.2,
+      "Alpe di Succiso"
+    ],
+    "Nera": [
+      42.82,
+      13.192,
+      "Monte Porche · Monti Sibillini"
+    ],
+    "Liri-Garigliano": [
+      42.005,
+      13.28,
+      "Monti Simbruini"
+    ],
+    "Aterno-Pescara": [
+      42.53,
+      13.245,
+      "Monte Capo-Cancelli"
+    ],
+    "Sangro": [
+      41.835,
+      13.87,
+      "Monte Morrone del Diavolo"
+    ],
+    "Basento": [
+      40.745,
+      15.765,
+      "Monte Arioso"
+    ],
+    "Agri": [
+      40.42,
+      15.72,
+      "Monte Maruggio"
+    ],
+    "Crati": [
+      39.286,
+      16.42,
+      "Timpone Bruno · Sila"
+    ],
+    "Neto": [
+      39.285,
+      16.44,
+      "Monte Botte Donato · Sila"
+    ],
+    "Tacina": [
+      39.11,
+      16.56,
+      "Timpone Morello · Sila Piccola"
+    ],
+    "Livenza": [
+      46.036,
+      12.5,
+      "Massiccio Cansiglio-Cavallo"
+    ],
+    "Bormida": [
+      44.25,
+      8.2,
+      "Monte Settepani"
+    ],
+    "Trebbia": [
+      44.54,
+      9.25,
+      "Monte Prelà"
+    ],
+    "Scrivia": [
+      44.52,
+      9.05,
+      "Monte Antola · Appennino ligure"
+    ],
+    "Metauro": [
+      43.64,
+      12.27,
+      "Alpe della Luna"
+    ],
+    "Tronto": [
+      42.73,
+      13.33,
+      "Monte Gorzano · Monti della Laga"
+    ],
+    "Esino": [
+      43.25,
+      12.95,
+      "Monte Cafaggio"
+    ],
+    "Fortore": [
+      41.44,
+      14.99,
+      "Monte Altieri · Appennino sannita"
+    ],
+    "Trigno": [
+      41.74,
+      14.21,
+      "Monte Capraro"
+    ],
+    "Bradano": [
+      40.735,
+      15.75,
+      "Monte Carmine"
+    ],
+    "Cervaro": [
+      41.27,
+      15.08,
+      "Monti Dauni"
+    ],
+    "Tirso": [
+      40.58,
+      9.2,
+      "Altopiano di Buddusò"
+    ],
+    "Flumendosa": [
+      39.99,
+      9.325,
+      "Punta La Marmora · Gennargentu"
+    ],
+    "Coghinas": [
+      40.9,
+      9.17,
+      "Monte Limbara"
+    ],
+    "Imera meridionale-Salso": [
+      37.875,
+      14.02,
+      "Monte Mufara · Madonie"
+    ],
+    "Simeto": [
+      37.93,
+      14.65,
+      "Serra del Re · Nebrodi"
+    ],
+    "Dittaino": [
+      37.65,
+      14.35,
+      "Monte Altesina · Monti Erei"
+    ],
+    "Ombrone": [
+      43.39,
+      11.5,
+      "Monti del Chianti"
+    ],
+    "Serchio": [
+      44.24,
+      10.3,
+      "Appennino tosco-emiliano"
+    ],
+    "Brenta": [
+      46.015,
+      11.265,
+      "Lago di Caldonazzo · Monte Panarotta"
+    ],
+    "Chiese": [
+      46.11,
+      10.565,
+      "Monte Fumo · Adamello"
+    ],
+    "Chiascio": [
+      43.44,
+      12.74,
+      "Monte Cucco"
+    ],
+    "Buthier": [
+      45.98,
+      7.53,
+      "Grandes Murailles"
+    ],
+    "Lys": [
+      45.89,
+      7.81,
+      "Monte Rosa · ghiacciaio del Lys"
+    ]
+  },
+  "italian_lakes": [
+    "Lago Maggiore",
+    "Lago Trasimeno",
+    "Lago d'Iseo",
+    "Lago d'Orta",
+    "Lago di Bolsena",
+    "Lago di Bracciano",
+    "Lago di Como",
+    "Lago di Garda",
+    "Lago di Lugano"
+  ],
+  "country_names_it": {
+    "Albania": "Albania",
+    "Andorra": "Andorra",
+    "Austria": "Austria",
+    "Belarus": "Bielorussia",
+    "Belgium": "Belgio",
+    "Bosnia and Herz.": "Bosnia ed Erzegovina",
+    "Bosnia and Herzegovina": "Bosnia ed Erzegovina",
+    "Bulgaria": "Bulgaria",
+    "Croatia": "Croazia",
+    "Cyprus": "Cipro",
+    "Czechia": "Cechia",
+    "Czech Republic": "Cechia",
+    "Denmark": "Danimarca",
+    "Estonia": "Estonia",
+    "Finland": "Finlandia",
+    "France": "Francia",
+    "Germany": "Germania",
+    "Greece": "Grecia",
+    "Hungary": "Ungheria",
+    "Iceland": "Islanda",
+    "Ireland": "Irlanda",
+    "Italy": "Italia",
+    "Kosovo": "Kosovo",
+    "Latvia": "Lettonia",
+    "Lithuania": "Lituania",
+    "Luxembourg": "Lussemburgo",
+    "Macedonia": "Macedonia del Nord",
+    "North Macedonia": "Macedonia del Nord",
+    "Moldova": "Moldavia",
+    "Montenegro": "Montenegro",
+    "Netherlands": "Paesi Bassi",
+    "Norway": "Norvegia",
+    "Poland": "Polonia",
+    "Portugal": "Portogallo",
+    "Romania": "Romania",
+    "Russia": "Russia",
+    "San Marino": "San Marino",
+    "Serbia": "Serbia",
+    "Slovakia": "Slovacchia",
+    "Slovenia": "Slovenia",
+    "Spain": "Spagna",
+    "Sweden": "Svezia",
+    "Switzerland": "Svizzera",
+    "Turkey": "Turchia",
+    "Ukraine": "Ucraina",
+    "United Kingdom": "Regno Unito",
+    "Vatican": "Città del Vaticano",
+    "Georgia": "Georgia",
+    "Armenia": "Armenia",
+    "Azerbaijan": "Azerbaigian"
+  },
+  "layer_defaults": {
+    "countries": true,
+    "country_points": false,
+    "country_labels": false,
+    "regions": true,
+    "provinces": false,
+    "province_points": false,
+    "province_labels": false,
+    "capitals": true,
+    "rivers": true,
+    "lakes": true,
+    "river_labels": false,
+    "lake_labels": false,
+    "sources": false,
+    "mountains": true
+  }
+}

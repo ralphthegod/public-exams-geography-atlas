@@ -1,0 +1,38 @@
+.river-label,.lake-label,.country-label,.province-label{display:inline-block;background:rgba(255,255,255,.84);padding:1px 5px;border-radius:8px;font:600 11px 'DM Sans',sans-serif;white-space:nowrap;box-shadow:0 1px 5px rgba(0,0,0,.08)}
+.river-label{color:#125c7a;font-style:italic}.lake-label{color:#0e6288}.country-label{color:#35423e;text-transform:uppercase;letter-spacing:.04em}.province-label{color:#75523e}
+.mountain-pin{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:#44524d;color:#fff;border:2px solid #fff;box-shadow:0 2px 7px rgba(0,0,0,.25);font-size:10px}
+.map-tooltip{border:0!important;border-radius:9px!important;background:#17211f!important;color:white!important;padding:6px 9px!important;box-shadow:0 4px 14px rgba(0,0,0,.22)!important;font:600 12px 'DM Sans',sans-serif!important}
+.map-tooltip:before{display:none!important}.leaflet-popup-content-wrapper{border-radius:12px}.leaflet-control-layers-expanded{max-height:min(68vh,620px);overflow-y:auto;overscroll-behavior:contain}
+.atlas-search-control{position:relative;background:white;padding:7px;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,.2)}
+.atlas-search-field{display:flex;align-items:center;gap:4px}
+.atlas-search-input{box-sizing:border-box;width:min(310px,55vw);height:42px;border:1px solid #b7c3bc;border-radius:9px;padding:0 12px;font:500 16px 'DM Sans',sans-serif;color:#18211f;outline:none;-webkit-appearance:none}
+.atlas-search-input:focus{border-color:#1d6f5f;box-shadow:0 0 0 2px rgba(29,111,95,.18)}
+.atlas-search-input::-webkit-search-cancel-button{display:none}
+.atlas-search-clear{width:42px;height:42px;border:0;border-radius:9px;background:#eef2ed;color:#34413d;font:500 25px/1 'DM Sans',sans-serif;cursor:pointer}
+.atlas-search-clear:active{background:#dce6df}
+.atlas-search-results{position:absolute;z-index:1001;top:calc(100% + 6px);left:0;right:0;max-height:min(336px,54vh);overflow-y:auto;background:#fff;border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.24);padding:5px;overscroll-behavior:contain}
+.atlas-search-results[hidden]{display:none}
+.atlas-search-result{box-sizing:border-box;width:100%;min-height:50px;display:flex;align-items:flex-start;justify-content:center;flex-direction:column;gap:2px;border:0;border-radius:8px;background:transparent;padding:7px 11px;text-align:left;color:#18211f;font:600 14px 'DM Sans',sans-serif;cursor:pointer}
+.atlas-search-result small{font-size:11px;font-weight:500;color:#65736f}
+.atlas-search-result:hover,.atlas-search-result[aria-selected="true"]{background:#e5eee8}
+.leaflet-touch .leaflet-control-zoom a,.leaflet-touch .leaflet-control-fullscreen a,.leaflet-touch .leaflet-control-layers-toggle{width:46px!important;height:46px!important;line-height:46px!important;background-size:26px 26px}
+.leaflet-control-layers label{min-height:36px;display:flex;align-items:center;margin:0;padding:2px 4px}
+.leaflet-control-layers input{width:19px;height:19px;margin-right:8px;accent-color:#1d6f5f}
+@media(max-width:1024px){
+  .leaflet-control-minimap,.leaflet-control-mouseposition{display:none!important}
+  .leaflet-control-layers-expanded{max-width:min(82vw,370px);max-height:62vh;font-size:15px}
+  .leaflet-control-layers label{min-height:44px}
+  .atlas-search-input{width:min(285px,calc(100vw - 142px));height:46px}
+  .atlas-search-clear{width:46px;height:46px}
+}
+@media(hover:none) and (pointer:coarse){
+  .leaflet-control-minimap,.leaflet-control-mouseposition{display:none!important}
+  .leaflet-control-layers-expanded{max-width:min(82vw,390px);max-height:62vh;font-size:15px}
+  .leaflet-control-layers label{min-height:44px}
+  .atlas-search-input{width:min(300px,calc(100vw - 142px));height:46px}
+  .atlas-search-clear{width:46px;height:46px}
+}
+@media(max-width:520px){
+  .atlas-search-control{padding:5px}.atlas-search-input{width:calc(100vw - 126px);min-width:150px}
+  .leaflet-control-layers-expanded{max-width:88vw;max-height:56vh}
+}
