@@ -759,9 +759,13 @@
     "province_points": false,
     "province_labels": false,
     "capitals": true,
+    "european_capital_points": true,
+    "european_capital_labels": false,
     "rivers": true,
     "lakes": true,
     "river_labels": false,
+    "european_national_rivers": false,
+    "european_national_river_labels": false,
     "lake_labels": false,
     "sources": false,
     "mountains": true

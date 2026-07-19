@@ -18,6 +18,8 @@ from atlas.infrastructure.sources import (
 from atlas.modules import (
     CapitalsModule,
     CountriesModule,
+    EuropeanCapitalsModule,
+    EuropeanNationalRiversModule,
     HydrographyModule,
     ItalianAdministrationModule,
     MountainsModule,
@@ -70,7 +72,9 @@ def create_application() -> AtlasApplication:
         CountriesModule(),
         ItalianAdministrationModule(),
         CapitalsModule(),
+        EuropeanCapitalsModule(),
         HydrographyModule(),
+        EuropeanNationalRiversModule(),
         RiverSourcesModule(),
         MountainsModule(),
     ]

@@ -7,6 +7,8 @@ from atlas.core.models import ModuleContext
 from atlas.modules import (
     CapitalsModule,
     CountriesModule,
+    EuropeanCapitalsModule,
+    EuropeanNationalRiversModule,
     HydrographyModule,
     ItalianAdministrationModule,
     MountainsModule,
@@ -16,7 +18,8 @@ from atlas.modules import (
 
 MODULES = [
     CountriesModule(), ItalianAdministrationModule(), CapitalsModule(),
-    HydrographyModule(), RiverSourcesModule(), MountainsModule(),
+    EuropeanCapitalsModule(), HydrographyModule(), EuropeanNationalRiversModule(),
+    RiverSourcesModule(), MountainsModule(),
 ]
 
 

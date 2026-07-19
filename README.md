@@ -29,7 +29,9 @@ The book is a study-scope reference only. Its copyrighted text and quizzes are n
 - European national boundaries and searchable countries.
 - Italian regions, provinces, and metropolitan cities.
 - Italian regional capitals.
+- European national capitals, with independently switchable points and labels.
 - Major European and Italian rivers.
+- Up to three principal rivers for each European country in an independent module.
 - Local OpenStreetMap geometries for the manually selected Italian rivers.
 - Major European and Italian lakes.
 - Local OpenStreetMap polygons for nine major Italian lakes.
@@ -166,6 +168,8 @@ atlas/
 │   ├── countries.py
 │   ├── italian_admin.py
 │   ├── capitals.py
+│   ├── european_capitals/          # National-capital module and local entities
+│   ├── european_national_rivers/   # Per-country river module and local GeoJSON
 │   ├── hydrography.py
 │   ├── river_sources.py
 │   ├── mountains.py
@@ -201,6 +205,8 @@ A geographic module represents one coherent capability, not necessarily one chec
 - `Traccia laghi`
 - `Etichette fiumi`
 - `Etichette laghi`
+
+`EuropeanCapitalsModule` and `EuropeanNationalRiversModule` remain independent and own their respective point/label and trace/label pairs.
 
 Every module implements the following lifecycle:
 
@@ -439,6 +445,8 @@ Bundled local datasets:
 ```text
 data/italy_rivers.geojson
 data/italy_lakes.geojson
+atlas/modules/european_capitals/entities.json
+atlas/modules/european_national_rivers/rivers.geojson
 ```
 
 Regenerate them with:
